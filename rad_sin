@@ -1,0 +1,7 @@
+from math import sin, radians
+
+your_flt = float(input('Enter an angle in degree >'))
+your_rad = radians(your_flt)
+you_sin = sin(your_rad)
+print(you_sin)
+print('The sin of ' + str(your_flt) + ' degrees is ' + str(you_sin))
